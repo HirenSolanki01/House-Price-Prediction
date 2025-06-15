@@ -39,13 +39,13 @@ Where:
 🛠️ Project Structure
 
 house-price-prediction/
-│
-├── main.py                 # Main script to run model
-├── requirements.txt        # List of required Python packages
-├── README.md               # Project description
-├── venv/                   # Virtual environment (optional)
-├── train.csv               # Dataset file from Kaggle
-└── .gitignore              # Files to exclude from Git tracking
+ │
+ ├── main.py                 # Main script to run model
+ ├── requirements.txt        # List of required Python packages
+ ├── README.md               # Project description
+ ├── venv/                   # Virtual environment (optional)
+ ├── train.csv               # Dataset file from Kaggle
+ └── .gitignore              # Files to exclude from Git tracking
 
 🚀 How the Project Works
 1. Data Loading
@@ -71,10 +71,10 @@ house-price-prediction/
  Allows you to input custom values (e.g., area = 2000, bedrooms = 3, baths = 2) to get predicted price.
 
 ✅ Example Output
+
  MSE: 28064426667.25
  R2 Score: 0.6341
  Feature        Coefficient
- --------------------------
  GrLivArea      104.03
  BedroomAbvGr  -26655.17
  FullBath       30014.32
@@ -86,18 +86,18 @@ house-price-prediction/
 - Negative coefficient (e.g. BedroomAbvGr = -26,655) may be due to multicollinearity or small data sample.
 
 💻 How to Run
- Clone the repo:
-  git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
-  cd house-price-prediction
+- Clone the repo:
+   git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
+   cd house-price-prediction
 
- Create virtual environment:
-  python -m venv venv
-  venv\Scripts\activate   # On Windows
+- Create virtual environment:
+   python -m venv venv
+   venv\Scripts\activate   # On Windows
 
- Install dependencies:
-  pip install -r requirements.txt
+- Install dependencies:
+   pip install -r requirements.txt
 
- Run the model:
-  python main.py
+- Run the model:
+   python main.py
 
 
