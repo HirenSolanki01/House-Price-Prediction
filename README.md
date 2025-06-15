@@ -86,18 +86,18 @@ Where:
 - Negative coefficient (e.g. BedroomAbvGr = -26,655) may be due to multicollinearity or small data sample.
 
 💻 How to Run
-- Clone the repo:
-  git clone https://github.com/HirenSolanki01/house-price-prediction.git
-  cd house-price-prediction
+ Clone the repo:                                                                                                                 
+  git clone https://github.com/HirenSolanki01/house-price-prediction.git                                              
+  cd house-price-prediction                                                                                                     
 
-- Create virtual environment:
-  python -m venv venv
-  venv\Scripts\activate   # On Windows
+ Create virtual environment:                                                                                
+  python -m venv venv                                                                                       
+  venv\Scripts\activate   # On Windows                                                                         
 
-- Install dependencies:
-  pip install -r requirements.txt
+ Install dependencies:                                                                                         
+  pip install -r requirements.txt                                                                          
 
-- Run the model:
+ Run the model:                                                                             
   python main.py
 
 
