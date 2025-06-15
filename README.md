@@ -1,6 +1,6 @@
 🏡 House Price Prediction using Linear Regression
 
-📌 Project Summary
+📌 Project Summary                                                                                                         
  This project implements a Linear Regression model to predict the selling price of a house based on key features such as:
 - Living Area (square footage)
 - Number of Bedrooms
