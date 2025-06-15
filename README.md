@@ -38,14 +38,14 @@ Where:
 
 🛠️ Project Structure
 
-- house-price-prediction/
-  │
-  ├── main.py                 # Main script to run model
-  ├── requirements.txt        # List of required Python packages
-  ├── README.md               # Project description
-  ├── venv/                   # Virtual environment (optional)
-  ├── train.csv               # Dataset file from Kaggle
-  └── .gitignore              # Files to exclude from Git tracking
+- house-price-prediction/                                                                        
+  │                                                                                                      
+  ├── main.py                 # Main script to run model                                                                    
+  ├── requirements.txt        # List of required Python packages                                                                    
+  ├── README.md               # Project description                                                                   
+  ├── venv/                   # Virtual environment (optional)                                                            
+  ├── train.csv               # Dataset file from Kaggle                                                                          
+  └── .gitignore              # Files to exclude from Git tracking                                                               
 
 🚀 How the Project Works
 1. Data Loading
@@ -72,13 +72,13 @@ Where:
 
 ✅ Example Output
 - 
-  MSE: 28064426667.25
-  R2 Score: 0.6341
-  Feature        Coefficient
-  GrLivArea      104.03
-  BedroomAbvGr  -26655.17
-  FullBath       30014.32
-  Predicted price: ₹240,377.51
+  MSE: 28064426667.25                                              
+  R2 Score: 0.6341                                            
+  Feature        Coefficient                                          
+  GrLivArea      104.03                                              
+  BedroomAbvGr  -26655.17                                          
+  FullBath       30014.32                                            
+  Predicted price: ₹240,377.51                    
 
 📊 Interpretation
 - R² Score = 0.63 → The model explains ~63% of the variation in prices.
