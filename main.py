@@ -35,5 +35,5 @@ print(coeff_df)
 def predict_price(sqft, bedrooms, bathrooms):
     return model.predict(pd.DataFrame([[sqft, bedrooms, bathrooms]], columns=features))[0]
 
-# Example
-print("Predicted price:", predict_price(2000, 3, 2))
+
+print("Predicted price(₹):", predict_price(2000, 3, 2))
