@@ -9,7 +9,7 @@
  The goal is to create a simple, interpretable model that estimates house prices using a subset of the features from the Ames Housing Dataset.
 
 📂 Dataset Used
-- Source: House Prices - Advanced Regression Techniques (Kaggle)
+- Source: House Prices - Advanced Regression Techniques ([Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)) 
 - The dataset contains residential homes in Ames, Iowa.
 - Target variable: SalePrice (actual price of the house)
 
