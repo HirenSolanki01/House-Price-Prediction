@@ -1,4 +1,5 @@
 🏡 House Price Prediction using Linear Regression
+
 📌 Project Summary
  This project implements a Linear Regression model to predict the selling price of a house based on key features such as:
 - Living Area (square footage)
@@ -70,7 +71,7 @@ house-price-prediction/
  Allows you to input custom values (e.g., area = 2000, bedrooms = 3, baths = 2) to get predicted price.
 
 ✅ Example Output
- MSE: 2806426667.25
+ MSE: 28064426667.25
  R2 Score: 0.6341
  Feature        Coefficient
  --------------------------
@@ -80,12 +81,11 @@ house-price-prediction/
  Predicted price: ₹240,377.51
 
 📊 Interpretation
- R² Score = 0.63 → The model explains ~63% of the variation in prices.
- Positive coefficients (e.g. FullBath = +30,014) mean prices increase as the feature increases.
- Negative coefficient (e.g. BedroomAbvGr = -26,655) may be due to multicollinearity or small data sample.
+- R² Score = 0.63 → The model explains ~63% of the variation in prices.
+- Positive coefficients (e.g. FullBath = +30,014) mean prices increase as the feature increases.
+- Negative coefficient (e.g. BedroomAbvGr = -26,655) may be due to multicollinearity or small data sample.
 
 💻 How to Run
- 🔧 Setup
  Clone the repo:
   git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
   cd house-price-prediction
