@@ -35,8 +35,7 @@ feature_names = ['Living Area (sqft)', 'Bedrooms', 'Bathrooms']
 for name, coef in zip(feature_names, model.coef_):
     print(f"{name:<20}: {coef:.2f}")
 
-# Bonus: Get validated input from user
-print("\n--- Give details about house ---")
+print("\n--- Give details about House ---")
 
 def get_positive_float(prompt):
     while True:
